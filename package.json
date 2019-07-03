@@ -1,7 +1,7 @@
 {
   "name": "file-reader",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Build Status](https://travis-ci.com/401-advanced-javascript-aeaston/lab-03.svg?branch=master)](https://travis-ci.com/401-advanced-javascript-aeaston/lab-03)",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -13,8 +13,17 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "eslint": "^5.6.1",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-aeaston/lab-03.git"
+  },
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-aeaston/lab-03/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-aeaston/lab-03#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
     "jest": "^23.6.0"
   }
 }
