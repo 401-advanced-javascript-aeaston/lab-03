@@ -22,8 +22,8 @@ describe('File Reader Module', () => {
     let files = ['file1.txt', 'file2.txt', 'file2.txt'];
     reader(files, (err,data) => {
       expect(err).toBeNull();
-      expect(data instanceof Array ).toBeTruthy();
-      expect(data.length ).toBe(3);
+      expect(data instanceof Array).toBeTruthy();
+      expect(data.length).toBe(3);
       done();
     });
   });
