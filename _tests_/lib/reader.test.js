@@ -17,7 +17,6 @@ describe('File Reader Module', () => {
     });
   });
 
-
   it('reads 3 files', done => {
     let files = ['file1.txt', 'file2.txt', 'file2.txt'];
     reader(files, (err,data) => {
@@ -27,5 +26,4 @@ describe('File Reader Module', () => {
       done();
     });
   });
-
 });
